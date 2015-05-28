@@ -1,0 +1,328 @@
+#titolo {
+    float: right;
+    width: 83%;
+    background-image: url("images/Mountains2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 10em;
+}
+
+
+#header {
+    float: left;
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    width: 17%;
+    height: 10em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#logo img {
+    height: 140px;
+    width: 100%;
+}
+
+#titolo h1 {
+    text-align: center;
+}
+
+#breadcrumb p {
+    color: white;
+}
+
+#breadcrumb a{
+    color: white;
+}
+
+#breadcrumb a{
+    text-decoration:underline;
+}
+
+
+#login #username , #password {
+    width: 11em;
+    height: 1.2em;
+}
+
+#login {
+    float: right;
+    width: 15em;
+    text-align: right;
+    padding-right: 1%;
+}
+
+#login p{
+     margin: 10px;
+}
+
+#login form{
+    line-height: 1.5em;;
+}
+
+#dovesiete {
+    float: left;
+    width: 29%;
+    padding-left: 1%;
+}
+
+#container {
+    float: left;
+    width: 91%;
+    padding-right: 4%;
+    padding-left: 4%;
+    min-height: 25em;
+    border: solid #99CC00 ;
+}
+
+#nav {
+    float: left;
+    width: 97%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-left: solid #99CC00;
+    border-right: solid #99CC00;
+}
+
+#breadcrumb {
+    float: left;
+    width: 100%;
+    background-color: #99CC00;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#nav li {
+    list-style-type: none;
+    padding: 0.5em;
+    line-height: 3em;
+    border-width: 1px;
+    border: solid #DDDDDD;
+    display: inline;
+    white-space: nowrap;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+#nav ul {
+    line-height: 1.5em;
+    padding-left:0;
+}
+
+#nav .CurrentLink {
+    font-weight: bolder;
+}
+
+
+.note {
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    margin-top: 2em;
+    float: left;
+    margin-right: 3%;
+    background-color: white;
+    border: solid #99CC00;
+}
+
+#avvisi {
+    float: left;
+    width: 100%;
+}
+
+#avvisi .note.sticky1 .text {
+    margin: 10px;
+    font-family: 'The Girl Next Door', cursive;
+    word-wrap: break-word;
+}
+#avvisi .note.sticky2 .text {
+    margin: 10px;
+    font-family: 'The Girl Next Door', cursive;
+    word-wrap: break-word;
+}
+
+#section {
+    float: left;
+    width: 100%;
+}
+
+#container p {
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+
+#avvisi p {
+    line-height: 1em;
+    padding-bottom: 0;
+}
+
+#section .not_last {
+    border-bottom: solid #99CC00;
+}
+
+#footer {
+    float: right;
+    width: 100%;
+}
+
+#footer li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 1em;
+}
+
+#footer ul {
+    text-align: center;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#titolo {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+/* attivita, registrazione ,gestisci */
+#indice h2{
+    font-weight:normal;
+    padding-left: 1em;
+}
+
+#indice {
+    border: solid #99CC00;
+    margin-right: 60%;
+    background-color: white;
+}
+#indice ul{
+    list-style-type: none;
+    line-height: 1.5em;
+    padding-right: 1em;
+}
+#content dd{
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+#content dt{
+    padding-top: 2em;
+    border-top: solid #99CC00;
+}
+
+#sectionR{
+    float: left;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    border: solid #99CC00;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    background-color: white;
+}
+
+/* css commenti */
+
+.post .commenti{
+    display:none;
+    margin-top: 2%;
+    margin-right: 5%;
+    border:  dotted #99CC00;
+    border-width: 1px;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-height: 30%;
+    max-width: 400px;
+    max-height: 400px;
+    overflow:scroll
+}
+
+.post .commenti.open{
+    display:block;
+}
+
+.post .commenti .commento{
+    margin-bottom:1em;
+}
+
+.post .commenti .commento p{
+    margin-bottom:0px;
+    border: solid #99CC00;
+    border-width: 1px;
+    padding: 2%;
+    overflow:scroll;
+}
+
+.post .commenti h2{
+    font-size: 70%;
+}
+
+.post p{
+    font-size: 90%;
+}
+
+.post .commenti p{
+    font-size: 80%;
+}
+
+.commento .dataCommento{
+    font-size: 70%;
+}
+
+.post h1{
+    font-size: 150%;
+}
+
+.post{
+    border: solid #99CC00;
+    border-width: 2px;
+    margin-top:1em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom:1em;
+}
+
+.last{
+    margin-bottom: 1em;
+}
+
+.nuovoCommento textarea{
+    width:90%;
+    border: 1px solid #99CC00;
+}
+
+.closeButton{
+    background:url(images/openIcon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:35px;
+    height:35px
+}
+
+.openButton{
+    background:url(images/closeIcon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:35px;
+    height:35px
+}
+
+
+
+
+
+
+
+

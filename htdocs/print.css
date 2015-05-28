@@ -1,0 +1,36 @@
+#breadcrumb, #footer, #nav, #avvisi, .scroll-to-top, .scrollNoJs, #ultimi_num{
+    display: none;
+}
+
+#titolo {
+    float: right;
+    width: 70%;
+    padding-left: 4em;
+    height: 140px;
+}
+
+#titolo h1 {
+    font-size: 2.5em;
+}
+
+#logo {
+    float: left;
+    width: 17%;
+    height: 140px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#container {
+    float: left;
+    border-top: solid #DDDDDD;
+    padding-left: 3em;
+    padding-right: 2em;
+    line-height: 1.5em;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: black;
+}
+

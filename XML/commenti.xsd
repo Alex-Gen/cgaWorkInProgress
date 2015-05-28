@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+xmlns:c="http://www.ptollot/commenti.xml"
+targetNamespace="http://www.ptollot/commenti.xml"
+elementFormDefault="qualified" >
+
+<element name="commenti">
+    <complexType>
+        <sequence>
+            <element name="commento" maxOccurs="unbounded">
+                <complexType>
+                    <sequence>
+                        <element name="user" type="string" />
+                        <element name="post" type="string" />
+                        <element name="data">
+                            <simpleType>
+                                <restriction base="string">
+                                    <pattern value="[0-9]{2}-[0-9]{2}-[0-9]{4}" />
+                                </restriction>
+                            </simpleType>
+                        </element>
+                        <element name="contenuto" type="string" />
+                    </sequence>
+                </complexType>
+            </element>
+        </sequence>
+    </complexType>
+</element>
+
+</schema>
