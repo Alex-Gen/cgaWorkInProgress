@@ -319,10 +319,149 @@ li:hover {
     height:35px
 }
 
+/* <gallery> */
 
+.scroll-to-top {
+    position: fixed;
+    background-image: url("images/topIcon2.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 1em;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    padding-right: 1em;
+    z-index: 999;
+}
 
+#gf {
+    list-style-type: none;
+    padding-left: 0;
+}
 
+.gruppoFoto {
+    border: 10px solid #9C0;
+    background-color: olivedrab;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
 
+.gruppoFoto ul {
+    padding-left: 0;
+    text-align: center;
+}
 
+.gruppoFoto li {
+    line-height: 0;
+    display: inline-block;
+    list-style-type: none;
+    padding-right: .5em;
+}
 
+.gruppoFoto h3 {
+    color: white;
+    border-bottom: 2px solid #9C0;
+}
 
+.gruppoFoto a:link {
+    line-height: 0;
+    display: inline-block;
+    border-bottom: .2em solid #0000EE;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.gruppoFoto a:visited {
+    border-bottom-color: #551A8B;
+}
+
+.gruppoFoto a:hover {
+    border-bottom-color: #99CC00;
+}
+
+.gruppoFoto a:active {
+    border-bottom-color: #EE0000;
+}
+
+.gruppoFoto > a {
+    text-decoration: none;
+}
+
+#gallery-indice {
+    border: solid #99CC00;
+    display: inline-block;
+    margin-right: auto;
+    padding-right: 1em;
+}
+
+#gallery-indice h2 {
+    font-weight:normal;
+    padding-left: 1em;
+}
+
+#GallelryPopUpBack {
+    background-color: #D3D3D3;
+    display: none;
+    filter: Alpha(opacity=50); /* IE8 and earlier */
+    height: 100%;
+    position:fixed;
+    left: 0;
+    opacity: .5;
+    top: 0;
+    width: 100%;
+    z-index: 5000;
+}
+
+#GalleryPopUp {
+    -webkit-backface-visibility: hidden;
+    background-color: #D3D3D3;
+    border: 10px solid white;
+    border-radius: 10px;
+    display: none;
+    font-size:0; /*per togliere gli spazi tra le immagini*/
+    position: fixed;
+    text-align: center;
+    z-index: 10000;
+}
+
+#GalleryNextArrow,
+#GalleryPreviousArrow {
+    display:inline-block;
+    width: 10%;
+}
+
+#GalleryNextArrow:hover,
+#GalleryPreviousArrow:hover {
+    display: inline-block;
+    width: 10%;
+}
+
+#GalleryCurrentImg {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 80%;
+    height: auto;
+    border: 0 solid white;
+    border-radius: 10px;
+}
+
+#GalleryCloseImg {
+    height: 100%;
+    width: auto;
+    
+}
+
+#GalleryClosePopUp {
+    height: 10%;
+    width: auto;
+}
+
+#gallery-count {
+    font-size: initial;
+    margin: 0 auto;
+}
+
+/* </gallery> */
