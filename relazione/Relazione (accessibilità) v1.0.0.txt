@@ -1,0 +1,21 @@
+Accessibilità
+Abbiamo cercato di rendere il sito il più possibile accessibile a diverse categorie di utenti, tra qui:
+*Utenti che usano soltanto la tastiera come dispositivo di input.
+*Utenti affetti da daltonismo.
+*Utenti che consultano il sito mediante un cellulare o tablet.
+
+Per venire incontro agli utenti della prima categoria si è fatta attenzione all’uso dell’attributo “tabindex”, in questo modo il sito è completamente navigabile con la tastiera. Infatti, mediante l’uso del tasto tab per far avanzare il focus sul link successivo e della combinazione di tasti shift+tab per far retrocedere il focus è possibile esplorare il contenuto del sito.
+
+I colori usati per il layout sono stati testati è calibrati in modo da permettere una agevole fruizione del sito anche da parte di utenti con distorta percezione di alcuni colori.
+
+Per rendere il sito accessibile anche dai dispositivi mobili abbiamo creato un foglio di stile apposito. In modo da disporre il contenuto in maniera adeguata per i dispositivi con schermi dalle dimensioni ridotte. 
+
+
+Per aumentare ulteriormente l’usabilità sono stati implementati seguenti elementi:
+*Breadcrumbs: per tutte le pagine del sito in modo da non far sentire perso l’utente e risponderli alla domanda “Dove?”.
+
+*Indici con dei link: nelle pagine attività e gallery. Si ritiene utile per farsi un idea generale sul contenuto che segue e per poter accedere direttamente alle informazioni di interesse, senza dover usare lo scroll per un tempo indefinito.
+
+*Un link fisso che permette di tornare all’inizio della pagina. Utile soprattutto combinato con gli indici.
+
+*Lightbox per la visualizzazione agevole ed intuitiva delle foto. Intuitivamente utilizzabile anche da tastiera mediante le frecce e il tasto esc. Con la possibilità di usare tasti tab e tab+shift per posizionare il focus sui controlli.
